@@ -5,7 +5,7 @@ for the lack of comments.
 
 ## Sweep and Prune
 This is a broadphase algorithm for keeping track of all objects in a world that have overlapping bounding boxes.
-I first learned about this algorithm from [this paper](http://www.codercorner.com/SAP.pdf) which I found through ThinMatrix.
+I first learned about this algorithm from [this paper](http://www.codercorner.com/SAP.pdf) by Pierre Terdiman which I found through ThinMatrix.
 My first implementation was pretty sloppy, but this is my third implementation and I think I got it pretty clean this time around.
 It's an abstract class now designed to work with whichever custom application. I did decide to use integer values because it was
 the most useful for me, but I'm sure it would work otherwise.
