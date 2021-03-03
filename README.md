@@ -1,7 +1,7 @@
 # GameAlgorithms
 This is a project containing three algorithms I implemented for a java game I'm working on.
 I wanted to create a separate repository to show off these standalone algorithms. I apologize
-for the lack of comments.
+for the lack of comments, this was a solo project and I haven't had time to make it nice yet.
 
 ## Sweep and Prune
 This is a broadphase algorithm for keeping track of all objects in a world that have overlapping bounding boxes.
@@ -11,7 +11,7 @@ It's an abstract class now designed to work with whichever custom application. I
 the most useful for me, but I'm sure it would work otherwise.
 
 ## Gilbert Johnson Keerthi
-This is wicked awesome narrowphase algorithm for determining if two convex objects are overlapping. It uses mathematical wizardry
+This is a wicked awesome narrowphase algorithm for determining if two convex objects are overlapping. It uses mathematical wizardry
 called the minkowski sum to join objects in a way where the resulting shape only overlaps the origin if the shapes are overlapping.
 I learned about it from Casey Muratori and his video [here](https://caseymuratori.com/blog_0003). My implementation again uses
 integers instead of floats, and is unlike the ones I've heard of in that it excludes objects that are touching but not overlapping.
